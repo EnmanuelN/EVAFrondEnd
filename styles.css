@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellowgreen !important;
+    font-family: cursive;
+}
+.edit{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url(img/fondo.webp);
+    background-size: cover;
+    background-position: center;
+}
+.edit-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+li a{
+    float: left;
+}
+
+li:hover{
+    background-color: red;
+    color: yellow;
+}
+li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+}
+.Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgreen;
+    color: yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.seccionO{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    background-color: rgba(5, 87, 12, 0.8);
+    margin: 20px;
+    text-align: center;
+}
+.seccionO a{
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+.seccionO a:hover{
+    background-color: darkgreen;
+    color: yellow;
+}
+.mutimedia{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    background-color: rgba(5, 87, 12, 0.8);
+    margin: 20px;
+    text-align: center;
+}
+.mutimedia img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    width: 100%;
+    height: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+}
